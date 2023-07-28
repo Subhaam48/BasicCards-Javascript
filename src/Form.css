@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+form fieldset{
+    width: 25% ;
+    margin: 30px auto;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(121, 141, 141);
+    transition: 2s;
+    /* border-top: none; */
+}
+form fieldset:hover{
+box-shadow:8px 7px 8px rgb(63, 76, 81);
+}
+
+form input{
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 2sec;
+    
+    /* background-color: palevioletred; */
+}
+form input:hover{
+    box-shadow: 3px 3px   rgb(98, 97, 97);
+}
+button{
+    /* border:5px solid rgb(51, 67, 51); */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    transition: 2s;
+}
+button:hover{
+    background-color: rgb(87, 152, 131);
+    
+    
+}
+legend{
+    border: 2px solid  rgb(10, 57, 42);
+    border-radius: 5px;
+    background-color: rgb(87, 142, 126);
+    color:black;
+    font-size: larger;
+    font-weight: 400;
+}
+legend:hover{
+    box-shadow: 2px 2px rgb(51, 67, 51) ;
+    transition: 1s;
+}
